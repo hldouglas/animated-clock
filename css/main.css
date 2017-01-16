@@ -13,7 +13,8 @@ html {
 
 .center {
   width: 28px;
-  transform: translate(104px, 136px);
+  top: 45%;
+  left: 46%;
   position: absolute;
 }
 
@@ -23,15 +24,17 @@ html {
 }
 
 .hand-hour {
-  position: relative;
-  transform: translate(143px, 60px);
+  position: absolute;
+  top: 30%;
+  left: 48%;
   transform-origin: center bottom;
   animation: spin 6s linear infinite;
 }
 
 .hand-minute {
-  position: relative;
-  transform: translate(124px, 72px);
+  position: absolute;
+  top: 23%;
+  left: 48%;
   transform-origin: center bottom;
   animation: spin 1s linear infinite;
 }
