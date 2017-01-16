@@ -31,7 +31,7 @@ html {
 
 .hand-minute {
   position: relative;
-  transform: translate(125px, 72px);
+  transform: translate(124px, 72px);
   transform-origin: center bottom;
   animation: spin 1s linear infinite;
 }
